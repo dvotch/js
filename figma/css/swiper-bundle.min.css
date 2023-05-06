@@ -18,6 +18,7 @@
 }
 :root {
   --swiper-theme-color: #007aff;
+  --swiper-pagination-bottom: 35px;
 }
 .swiper,
 swiper-container {
@@ -309,6 +310,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
   transition: 0.3s opacity;
   transform: translate3d(0, 0, 0);
   z-index: 10;
+  top: 20px;
 }
 .swiper-pagination.swiper-pagination-hidden {
   opacity: 0;
@@ -321,9 +323,9 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  bottom: var(--swiper-pagination-bottom, -10px);
+  bottom: var(--swiper-pagination-bottom, 8px);
   top: var(--swiper-pagination-top, auto);
-  left: -15px;
+  left: 0;
   width: 100%;
   z-index: 20;
 }

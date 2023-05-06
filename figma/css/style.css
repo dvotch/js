@@ -18,7 +18,7 @@ body {
   line-height: 24px;
   letter-spacing: -0.2px;
 }
-.main .swiper {
+#swiper {
   display: none;
 }
 .wraper {
@@ -104,7 +104,7 @@ body {
 .main__more::before {
   position: absolute;
   left: -25%;
-  content: url(/img/icon.svg);
+  content: url(../img/icon.svg);
 }
 
 @media (max-width: 768px) {
@@ -130,7 +130,7 @@ body {
   .container {
     display: none;
   }
-  .main .swiper {
+  #swiper {
     display: block;
     margin-left: 16px;
   }
