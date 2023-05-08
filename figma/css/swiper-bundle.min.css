@@ -18,7 +18,7 @@
 }
 :root {
   --swiper-theme-color: #007aff;
-  --swiper-pagination-bottom: 35px;
+  --swiper-pagination-top: 100px;
 }
 .swiper,
 swiper-container {
@@ -323,8 +323,7 @@ swiper-container:not(.swiper-watch-progress) .swiper-lazy-preloader {
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  bottom: var(--swiper-pagination-bottom, 8px);
-  top: var(--swiper-pagination-top, auto);
+  top: var(--swiper-pagination-top, 8px);
   left: 0;
   width: 100%;
   z-index: 20;

@@ -119,13 +119,14 @@ body {
     display: none;
   }
 }
-@media (max-width: 320px) {
+@media (min-width: 0px) AND (max-width: 320px) {
   #main__more {
     display: none;
   }
   .main {
     height: 100vh;
     margin-top: 16px;
+    position: relative;
   }
   .container {
     display: none;
